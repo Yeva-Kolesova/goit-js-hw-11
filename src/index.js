@@ -65,7 +65,7 @@ async function onFormElSubmit(e) {
         photoApi.totalPage = Math.ceil(res.totalHits / PhotoAPI.PER_PAGE);
 
         lightbox = new SimpleLightbox('.gallery a');
-
+        refs.btnEl.classList.remove('visually-hidden');
         // updateBtnVision()
     } catch (err) {
         console.log('error')
