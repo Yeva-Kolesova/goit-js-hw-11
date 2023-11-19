@@ -67,7 +67,8 @@ async function onFormElSubmit(e) {
 
         updateBtnVision()
     } catch (err) {
-        Notiflix.Notify.failure(err);
+        console.log('error')
+        // Notiflix.Notify.failure(err);
     }
 }
 
