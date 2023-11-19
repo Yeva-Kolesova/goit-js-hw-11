@@ -66,7 +66,7 @@ async function onFormElSubmit(e) {
 
         lightbox = new SimpleLightbox('.gallery a');
 
-        updateBtnVision()
+        // updateBtnVision()
     } catch (err) {
         console.log('error')
         console.log(err)
