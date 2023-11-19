@@ -11,7 +11,7 @@ const refs = {
 
 refs.formEl.addEventListener('submit', onFormElSubmit);
 refs.btnEl.addEventListener('click', onBtnElClick);
-
+let lightbox = null;
 refs.btnEl.classList.add('visually-hidden');
 
 const photoApi = new PhotoAPI();
