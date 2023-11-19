@@ -39,7 +39,8 @@ async function onBtnElClick() {
             behavior: 'smooth',
         });
     } catch (err) {
-        Notiflix.Notify.warning(err);
+        // Notiflix.Notify.warning(err);
+        console.log('error')
     }
 }
 
